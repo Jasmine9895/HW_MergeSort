@@ -1,0 +1,56 @@
+Script began: Sun Feb 4 23:01:05 PST 2018
+Node: compute-13-6.local
+Current directory: /data/users/jbhanush/hw1
+
+=== Running 5 trials of Mergesort on 10 million elements ... ===
+*** Trial 1 ***
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 10000000
+
+Sequential: 2.09756 seconds ==> 4.76743 million keys per second
+	(Array is sorted.)
+Parallel sort: 63.9936 seconds ==> 0.156266 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+*** Trial 2 ***
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 10000000
+
+Sequential: 2.10436 seconds ==> 4.75205 million keys per second
+	(Array is sorted.)
+Parallel sort: 69.4672 seconds ==> 0.143953 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+*** Trial 3 ***
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 10000000
+
+Sequential: 2.1286 seconds ==> 4.69793 million keys per second
+	(Array is sorted.)
+Parallel sort: 66.543 seconds ==> 0.150279 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+*** Trial 4 ***
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 10000000
+
+Sequential: 2.1025 seconds ==> 4.75624 million keys per second
+	(Array is sorted.)
+Parallel sort: 63.9974 seconds ==> 0.156256 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+*** Trial 5 ***
+
+=== Done! ===
